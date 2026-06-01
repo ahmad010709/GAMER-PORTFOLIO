@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Gamer Portfolio</title>
+    <meta name="description"
+        content="Learn more about the gamer behind the portfolio. My setup, my journey, and my favorite games.">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <div class="logo">GAMER PORTFOLIO</div>
+            <nav>
+                <ul style="display: flex; list-style: none; gap: 2rem;">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link active">About</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>The Player Behind the Screen</h1>
+            <p>From retro arcade classics to modern AAA masterpieces, gaming has been my passion for over a decade. I
+                don't just play; I analyze, experience, and master.</p>
+        </section>
+
+        <div style="display: flex; gap: 3rem; margin-top: 2rem; align-items: flex-start; flex-wrap: wrap;">
+            <div class="glass" style="flex: 1; min-width: 300px; padding: 2rem;">
+                <h2 style="margin-bottom: 1.5rem; color: var(--accent-color);">My Setup</h2>
+                <ul style="list-style: none; display: flex; flex-direction: column; gap: 1rem;">
+                    <li style="display: flex; align-items: center; gap: 1rem;"><i data-lucide="cpu"
+                            style="color: var(--text-secondary);"></i> <span>RTX 4080 | Ryzen 9 7900X</span></li>
+                    <li style="display: flex; align-items: center; gap: 1rem;"><i data-lucide="monitor"
+                            style="color: var(--text-secondary);"></i> <span>4K 144Hz OLED Display</span></li>
+                    <li style="display: flex; align-items: center; gap: 1rem;"><i data-lucide="keyboard"
+                            style="color: var(--text-secondary);"></i> <span>Mechanical Custom Build</span></li>
+                    <li style="display: flex; align-items: center; gap: 1rem;"><i data-lucide="headphones"
+                            style="color: var(--text-secondary);"></i> <span>Studio Grade Audio Setup</span></li>
+                </ul>
+            </div>
+            <div class="glass" style="flex: 1.5; min-width: 300px; padding: 2rem;">
+                <h2 style="margin-bottom: 1.5rem; color: var(--accent-color);">Achievement Unlocked</h2>
+                <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;"><i
+                                data-lucide="award" style="color: #ffd700;"></i> Top 1% Rank in Competitive Play</h4>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Consistent high-tier ranking across
+                            multiple FPS and RPG titles.</p>
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;"><i
+                                data-lucide="award" style="color: #c0c0c0;"></i> 50+ Platinum Trophies</h4>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Dedicated completionist with a deep
+                            appreciation for game design.</p>
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;"><i
+                                data-lucide="award" style="color: #cd7f32;"></i> Content Creator</h4>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Building a community of like-minded
+                            gamers through high-quality gameplay videos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Portfolio | Showcasing My Journey</title>
+    <meta name="description"
+        content="A portfolio of game videos, snapshots, and progress. Add your own clips and share your gameplay.">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <div class="logo">GAMER PORTFOLIO</div>
+            <nav>
+                <ul style="display: flex; list-style: none; gap: 2rem;">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Level Up Your Story</h1>
+            <p>Welcome to my ultimate gaming hub. Explore the highlights of my latest adventures and epic boss battles.
+                Captured in pure high definition.</p>
+        </section>
+
+        <section class="gallery" id="mediaGallery">
+            <!-- Dynamic Content Will Appear Here -->
+            <div class="video-card glass">
+                <div class="video-thumb">
+                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=1000"
+                        alt="Cyberpunk Aesthetic">
+                </div>
+                <div class="video-info" style="padding: 1.5rem;">
+                    <h3>Battle for Night City</h3>
+                    <p>Intense combat and exploration in the neon-lit streets.</p>
+                </div>
+            </div>
+            <div class="video-card glass">
+                <div class="video-thumb">
+                    <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=1000"
+                        alt="Elden Ring Style">
+                </div>
+                <div class="video-info" style="padding: 1.5rem;">
+                    <h3>The Shadow King's Throne</h3>
+                    <p>Epic boss battle against the Shadow King in a decaying castle.</p>
+                </div>
+            </div>
+            <div class="video-card glass">
+                <div class="video-thumb">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen style="width: 100%; height: 100%; border-radius: 12px;">
+                    </iframe>
+                </div>
+                <div class="video-info" style="padding: 1.5rem;">
+                    <h3>Never Gonna Lose</h3>
+                    <p>A classic quest to victory. Legend says it never gives up.</p>
+                </div>
+            </div>
+            <div class="video-card glass">
+                <div class="video-thumb">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=1000"
+                        alt="Retro Gaming">
+                </div>
+                <div class="video-info" style="padding: 1.5rem;">
+                    <h3>Retro Quest: 198X</h3>
+                    <p>A nostalgic dive into the pixelated landscapes of the 8-bit era.</p>
+                </div>
+            </div>
+            <div class="video-card glass">
+                <div class="video-thumb">
+                    <img src="https://images.unsplash.com/photo-1627375415720-93fe2879b6c4?auto=format&fit=crop&q=80&w=1000"
+                        alt="Space Sim">
+                </div>
+                <div class="video-info" style="padding: 1.5rem;">
+                    <h3>Void Voyager</h3>
+                    <p>Deep space exploration and stellar dogfights amongst the nebulae.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
